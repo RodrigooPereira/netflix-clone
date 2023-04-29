@@ -533,7 +533,7 @@ footer {
 
 @media (max-width: 850px) {
 
-    * {
+    body {
         overflow-x: hidden;
     }
 
@@ -654,6 +654,184 @@ footer {
         height: 10px;
         position: absolute;
         right: 15px;
+    }
+    
+    .second-content-box, .third-content-box, .fourth-content-box, .fifth-content-box {
+        max-width: 1100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0 50px 0;
+    }
+    
+    .second-text-box {
+        margin-top: 25px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .second-text-box h1, .third-text-box h1, .fourth-text-box h1, .fifth-content-box h1 {
+        font-size: 40px;
+        text-align: center; 
+        margin-bottom: 20px;
+        line-height: 1.1;
+        overflow-x: visible;
+    }
+    
+    .second-text-box h2, .third-text-box h2, .fourth-text-box h2, .fifth-content-box h2 { 
+        font-size: 20px;
+        text-align: center; 
+    }
+
+    .tv-box {
+        position: relative;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        width: 80%;
+    }
+    
+    .tv-box div {
+        overflow-x: visible;   
+    }
+    
+    /* THIRD */
+    
+    .third-image-box-wrapper {
+        width: 80%;
+    }
+    
+    .third-image-box {
+        margin-left: 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .third-image-box img {
+        max-width: 100%;
+    }
+    
+    .third-text-box {
+        width: 80%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fourth-text-box {
+        width: 80%;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .fourth-content-box {
+        margin-top: 50px;
+    }
+    
+    .fourth-image-box {
+        width: 80%;
+        position: relative;
+        z-index: 10;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .fourth-image-box div {
+        overflow-x: visible;
+    }
+    
+    .fifth-content-box {
+        margin-top: 60px;
+    }
+    
+    .fifth-image-box {
+        width: 80%;
+        margin-right: 4%;
+    }
+    
+    .fifth-image-box img {
+        width: 100%;
+    }
+    
+    .fifth-text-box {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sixth h1 {
+        padding: 35px 0;
+        font-size: 35px;
+    }
+    
+    .questions-box {
+        max-width: 775px;
+        width: 80%;
+    }
+    
+    .question {
+        margin-bottom: 10px;
+        font-size: 18px;
+        padding: 20px;
+        position: relative;
+    }
+    
+    .question.active .answer {
+        margin-top: 5px;
+    }
+    
+    .question::after {
+        content: '';
+        background: url('images/plus.png') center no-repeat;
+        background-size: contain;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+    
+    .footer-up {
+        color: #737373;
+        font-size: 15px;
+        margin: 50px 0 25px 0;
+    }
+    
+    .footer-content {
+        max-width: 900px;
+        width: 80%;
+    }
+    
+    .footer-links ul {
+        display: block;
+    }
+    
+    .footer-links li {
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-select {
+        margin: 15px 0 20px 0;
+    }
+    
+    .footer-select-box {
+        margin-top: 25px;
+        border-radius: 1.5px;
+        width: 140px;
+        border: solid 1px white;
+        display: flex;
+        align-items: center;
     }
 
 }
